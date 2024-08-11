@@ -28,6 +28,7 @@
         background-color: var(--background-primary);
         display: grid;
         margin: 0 auto;
+        padding: 0 50px;
     }
 
     h1{
