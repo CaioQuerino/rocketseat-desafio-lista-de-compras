@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="assets/icons/logo.svg" alt="Logo da quicklist">
+        </figure>
+    </header>
+
+    <main>
+        <section>
+            <div class="button-back">
+                <img src="assets/icons/icon-arrow-left-svgrepo.svg" alt="Botão para voltar a página anterior">
+                <span>Voltar</span>
+            </div>
+
+            <h1>Compras da semana</h1>
+
+            <div class="container">
+                <div class="add-list">
+                    <input type="text" name="add-list" id="add-list" placeholder="Adicione um novo item" maxlength="30">
+                    <button type="button" onclick="add_in_list()">Adicionar item</button>
+                </div>
+            </div>
+
+            <div class="content">
+                <div>
+                    <label for="" id="list"></label>
+                </div>
+            </div>
+
+            <div>
+
+                <div id="message" id="removido"></div>
+            </div>
+            
+        </section>
+
+
+    </main>
+</body>
+</html>
