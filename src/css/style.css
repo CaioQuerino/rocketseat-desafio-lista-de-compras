@@ -264,3 +264,114 @@
             margin-top: 12px;
         }
     }
+
+    @media (max-width: 1000px) {
+        /* Ajuste o padding e a largura do body */
+        body {
+            padding: 0 20px;
+        }
+    
+        /* Ajuste o max-width da section */
+        section {
+            max-width: 100%;
+            padding: 0 20px;
+        }
+    
+        /* Ajuste o tamanho das imagens no header */
+        header img {
+            max-width: 100px; /* ajuste conforme necessário */
+            height: auto;
+        }
+    
+        /* Ajuste a largura do input e botão no .container */
+        .container {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .container > .add-list {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        input[type="text"] {
+            min-width: 100%;
+            margin-bottom: 10px;
+        }
+    
+        .container > .add-list > button {
+            width: 100%;
+        }
+    
+        /* Ajuste o tamanho do botão e o layout dos textos */
+        button {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    
+        .button-back {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .button-back > span {
+            margin-top: 5px;
+        }
+    
+        /* Ajuste o layout das .h4 para melhor visualização em telas pequenas */
+        .h4 {
+            width: 100%;
+            margin-top: 10px;
+        }
+    
+        .h4 input[type="checkbox"],
+        .h4 img {
+            position: relative;
+            width: 20px;
+            height: 20px;
+        }
+    
+        .h4 span {
+            padding-left: 10px;
+        }
+    
+        /* Ajuste os estilos dos p e outros elementos de texto */
+        p {
+            font-size: 1em;
+            padding: 0 10px;
+        }
+    
+        .message-content {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    /* Ajuste para dispositivos menores que 602px já existente no seu código */
+    @media (max-width: 602px) {
+        .container > .add-list > button {
+            width: 300px;
+        }
+    
+        .container {
+            width: min-content;
+            display: flex;
+        }
+    
+        p {
+            min-width: 100%;
+        }
+    
+        button {
+            min-width: 100%;
+        }
+    
+        .h4 {
+            min-width: 100%;
+            margin-top: 12px;
+        }
+    }
+    
