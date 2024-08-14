@@ -44,7 +44,7 @@ A aplicação de lista de compras foi construída utilizando HTML, CSS e JavaScr
 
 ## Acesse a Página
 
-Você pode visualizar a aplicação funcionando através do seguinte link: [Lista de Compras](https://caioquerino.github.io/rocketseat-desafio-lista-de-compras/) *(Substitua este link pelo link real do seu projeto se estiver hospedado em um serviço de hospedagem.)*
+Você pode visualizar a aplicação funcionando através do seguinte link: [Lista de Compras](https://caioquerino.github.io/rocketseat-desafio-lista-de-compras/)
 
 ## Contato
 
